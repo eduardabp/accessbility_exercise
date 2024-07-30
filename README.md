@@ -1,6 +1,6 @@
 # ACESSIBILITY CHALLENGE
 
-My old BeCode project was transformed in an accessibility nightmare! As an exercise, you need to remediate all accessibility issues on the website. Use the knowledge you acquired on the workshop and consult the [slides]() when necessary. Try to link each issue to a [WCAG 2.1 success criteria](https://www.w3.org/TR/WCAG21/#perceivable), to consolidate your understanding of guidelines and standards.
+My old BeCode project was transformed in an accessibility nightmare! As an exercise, you need to remediate all accessibility issues on the website. Use the knowledge you acquired on the workshop. Try to link each issue to a [WCAG 2.1 success criteria](https://www.w3.org/TR/WCAG21/#perceivable), to consolidate your understanding of guidelines and standards.
 
 ### IF YOU ARE STUCK...
 
