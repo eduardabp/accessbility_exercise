@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&family=Noto+Serif:wght@400;500;700;800&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="contact.css" rel="stylesheet">
+    <script src="contact.js" defer></script>
+</head>
+<body>
+    <nav role="navigation">
+        <a href="index.html"><img src="images/logo.png" alt="Outline of a closed umbrella"></a>
+        <a href="index.html">Home</a>
+        <a href="umbrellas.html">Umbrellas</a>
+        <a href="contact.html" class="current">Join Me</a>
+    </nav>
+    <header role="banner">
+        <h1>Join Me</h1>
+        <h2>We can meet around the world to hunt lost umbrellas together!</h2>
+    </header>
+    <main>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/d/embed?mid=116OHk3NGhmWdmV8FWRCcGCEmx1ydhUE&ehbc=2E312F"></iframe>
+        </section>
+        <section class="contact-form">
+            <h3>Get in Touch</h3>
+            <p>If you have any questions, feedback or want to join the umbrella hunt, feel free to contact me.</p>
+            <div class="form-error"><p>Something went wrong.</p></div>
+            <div class="form-success"><p>Your form is submitted.</p></div>
+            <form action="submit_form.php" method="post" id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" tabindex="1">
+                <label>Email:</label>
+                <input type="text" id="email" name="email" tabindex="2">
+                <textarea name="message" rows="5" placeholder="Message" tabindex="3"></textarea>
+                <button type="submit" tabindex="4">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <h5>No umbrellas were harmed on the process of building this website.</h5> 
+    </footer>    
+</body>
+</html>
